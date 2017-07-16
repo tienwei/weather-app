@@ -1,0 +1,14 @@
+table.weather-board {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+table.weather-board thead tr {background-color: #cccccc}
+table.weather-board tbody tr:nth-child(even) {background-color: #f2f2f2}
+
+table.weather-board th, td {
+  text-align: left;
+  padding: 8px;
+  border-left: 1px solid;
+}
+table.weather-board th:first-child, td:first-child { border-left: none; }
