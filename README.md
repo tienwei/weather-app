@@ -15,7 +15,10 @@ To be able consume the weather api, you need to set `WEATHER_APP_ID` with a vali
 
 * To test, run `npm test` or `yarn test`.
 
+------------
+Live app: https://weather-app-tien.herokuapp.com/ powered by [`Heroku`](https://www.heroku.com/)
+
 -------------------------------------------
 ## TODO
-* Use environment variable to set `WEATHER_APP_ID`.
+~~ Use environment variable to set `WEATHER_APP_ID`.~~ (Done)
 * Add more tests.
