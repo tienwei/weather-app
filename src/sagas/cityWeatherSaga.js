@@ -3,6 +3,7 @@ import api from '../api';
 
 function* cityWeatherSaga(action) {
   try {
+    console.log('Called saga');
     const cities = yield all(action.cityNames.split(',').map(cityName => {
       return call(api.fetchCityWeather, cityName);
     }))

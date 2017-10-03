@@ -13,7 +13,6 @@ describe('City Weather Saga', () => {
   });
 
   test('calls the fetch api with the given city names', () => {
-    
     expect(itr.next().value).toEqual(all(mockedAction.cityNames.split(',').map(cityName => {
       return call(api.fetchCityWeather, cityName);
     })));

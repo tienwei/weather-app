@@ -2,6 +2,7 @@ import api from '../api';
 
 // Using thunk
 export const fetchCityInfoViaThunk = (cityNames) => {
+    console.log('Called thunk!');
     return (dispatch) => {
         // Start fetching
         dispatch({type: 'FETCHING_CITY_WEATHER'});

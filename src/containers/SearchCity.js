@@ -7,7 +7,6 @@ let SearchCity = ({ fetchCityInfoViaSaga, fetchCityInfoViaThunk }) => {
   let input;
 
   const handleOnClickViaThunk = () => (e) => {
-    console.log('called');
     e.preventDefault()
     if (!input.value.trim()) {
       return
